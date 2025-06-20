@@ -452,3 +452,126 @@ footer {
   border-radius: 8px;
   z-index: 1000;
 }
+
+/* ---------- MOBILE STYLES ---------- */
+@media (max-width: 768px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: fixed;
+  }
+
+  #header-left h1,
+  #header-left2 h1,
+  #header-left3 h1,
+  #header-left4 h1,
+  #header-left h3,
+  #header-left2 h3,
+  #header-left3 h3,
+  #header-left4 h3 {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+
+  #Speech-btn {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  #introbox {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #intro {
+    width: 100%;
+  }
+
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #intro p {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  #image {
+    width: 100%;
+    height: auto;
+  }
+
+  #contactbox {
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  #devcontainer1,
+  #devcontainer2,
+  #coursescontainer1,
+  #coursescontainer2,
+  #jobscontainer1,
+  #jobscontainer2,
+  #jobscontainer3 {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  #dev1, #dev2, #dev3, #dev4, #dev5, #dev6,
+  #course1, #course2, #course3, #course4, #course5, #course6,
+  #job1, #job2, #job3, #job4, #job5, #job6, #job7, #job8, #job9 {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+  }
+
+  #applicationboxcourses,
+  #completecourseapplication,
+  #applicationboxjobs,
+  #completejobapplication {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #applicationboxcourses input,
+  #applicationboxcourses select,
+  #applicationboxjobs input,
+  #applicationboxjobs select,
+  #coverletter,
+  #cv {
+    width: 90%;
+  }
+
+  #postcode-city {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    position: static;
+  }
+
+  .menu {
+    flex-direction: column;
+    row-gap: 10px;
+    position: static;
+  }
+
+  #logo {
+    width: 80px;
+    height: 80px;
+  }
+}
